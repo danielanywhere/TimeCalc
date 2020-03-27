@@ -1,4 +1,4 @@
-# TimeCalc
+# TimeCalc Overview
 TimeCalc is an Excel spreadsheet file that makes extensive use of formulas, VBA macros, and formatting to ease the task of keeping extremely detailed track of time spent on tasks and projects.
 
 At the end of every billing period, TimeCalc gives you the abilities to send invoices on time spent, and receive payment on outstanding billed items.
@@ -16,11 +16,14 @@ Following are descriptions of each of the sheets and their contents.
   - **Hourly Rate**. The rate you charge for your time.
   - **Commission**. Commission that you pay to another party, such as a service host, for any time you bill. This setting is depreciated and will be set on individual contacts in the next version.
   - **Time Format**. Format you use for expressing time and date.
+  - **Outlook Notify**. A value indicating whether a calendar notification will be created in Outlook for the due date of every invoice you generate. If **1**,
+  reminders are generated.
   - **Last Invoice**. The number of the last invoice generated.
 <br />
+
 - ## Work
   Temporal calculations for checking what-if scenarios and one-off decisions.
-  - **Rate Projector**. If you have a net (take-home) amount in mind that you need to establish, and have to take out a percentage of all income for taxes or commission, then use the Rate projector calculator on the Work sheet. For example, if I need to make $50.00/hr after taxes of 20%, I'll need to charge a rate of $62.50/hr to personally receive $50.00.
+  - **Rate Projector**. If you have a net (take-home) amount in mind that you need to establish, and have to take out a percentage of all income for taxes or commission, then use the Rate Projector calculator on the Work sheet. For example, if I need to make $50.00/hr after taxes of 20%, I'll need to charge a rate of $62.50/hr to personally receive $50.00.
   - **User Calculations - Weekly**. Using the time accumulated, the amount of time in the week, and current check-in time, show the ideal check-out time.
   - **User Calculations - Daily**. Using the time in, the number of hours needed, and length of break, display the ideal check-out time for today.
   - **General Calculations - Hours to Decimal**. Convert time-formatted hours to decimal fraction.
@@ -33,9 +36,11 @@ Following are descriptions of each of the sheets and their contents.
   - **General Calculations - Day Track**. Given the entered decimal hours for each of the seven days of the week, display the total number of hours spent in the week.
   - **General Calculations - Hour Track**. Given the in and out times entered for each of the seven days of the week, display the total number of decimal hours spent in the week.
 <br />
+
 - ## Timesheet
   52 individual week grids representing the clock-in and clock-out times of each day, summarized with the total decimal hours of each day and week.
 <br />
+
 - ## Sheets 01 to 12
   Individual hourly expenditures for each month of the year. When starting a new task, select the project, and task, then type **Now** in the Start column. After completing work, either through completion or interruption, select the End column and type **Now**. Man-hours, Billable amount, Charge, Invoiced, Received, and Due are all calculated automatically. Note that billing is not very dependent on the monthly timeline. You can send out as many as multiple invoices per month, as few as one invoice after the completion of an entire project, or anywhere in between.
 
@@ -60,6 +65,7 @@ Following are descriptions of each of the sheets and their contents.
    - **Received**. (Calculated or user entry). The payment amount received for this entry.
    - **Due**. (Calculated). The result of Invoiced - Received.
 <br />
+
 - ## Summary
   Invoices and receipts over the course of the year. Informational only. All values are calculated from other areas in the workbook.
 
@@ -70,6 +76,7 @@ Following are descriptions of each of the sheets and their contents.
    - **Received**. Total amount received from customers in each month.
    - **Due**. Current amount still outstanding for each month.
 <br />
+
 - ## Log Report
   Separate log of activities performed for a specific customer over a specified period of time. This sheet is similar to an invoice, but is used more often as an intermediary report sent to the customer in a specific time interval between invoices.
 
@@ -81,6 +88,7 @@ Following are descriptions of each of the sheets and their contents.
    - **MH**. Decimal man-hours spent on the entry.
    - **Charge**. The charge that will be applied in the invoice.
 <br />
+
 - ## Service Invoice
   Last printed invoice for the selected customer and for a specified period of time.
 
@@ -107,6 +115,7 @@ Following are descriptions of each of the sheets and their contents.
    - **Terms and Conditions**. Payment is due within 15 days of this invoice. In this version, the terms are NET 15 days. Dynamically selectable payment terms are scheduled for an upcoming version.
    - **Thank you**. Thank you message to the customer.
 <br />
+
 - ## Contacts
   Table of customers and customer-specific settings.
 
@@ -119,6 +128,7 @@ Following are descriptions of each of the sheets and their contents.
    - **Ship To Address**. Street number, street name, and suite of the customer.
    - **Ship To City State Zip**. City name, state code, and zip code of the customer.
 <br />
+
 - ## Services
   Table of services defined per contact.
 
@@ -128,6 +138,7 @@ Following are descriptions of each of the sheets and their contents.
    - **Rate per hr**. Hourly rate to charge to the selected contact for the selected service.
    - **Commission**. Commission percentage to be paid for work performed in this service.
 <br />
+
 - ## Training
   Reminders of training completed over the course of the year.
 
