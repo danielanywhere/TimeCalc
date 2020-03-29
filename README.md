@@ -5,6 +5,16 @@ TimeCalc is an Excel spreadsheet file that makes extensive use of formulas, VBA 
 
 At the end of every billing period, TimeCalc gives you the abilities to send invoices on time spent, and receive payment on outstanding billed items.
 
+# Quick Start
+Download TimeCalc2020.xlsm from the above list.
+ - Click link [TimeCalc-2020.xlsm](blob/master/TimeCalc-2020.xlsm).
+ - Click **Download**.
+ - Since the file was downloaded from the Internet, it will not yet be
+ enabled for editing.
+ - Open the .xlsm file.
+ - In the message area titled **Protected View**, click **Enable Editing**.
+ - In the message area titled **Security Warning**, click **Enable Content**.
+
 Following is an overview of the contents of the workbook. Please see the Wiki section for more instructions.
 
 # Sheets
