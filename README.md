@@ -9,9 +9,10 @@ At the end of every billing period, TimeCalc gives you the abilities to send inv
 Download TimeCalc2020.xlsm from the above list.
  - Click link [TimeCalc-2020.xlsm](TimeCalc-2020.xlsm).
  - Click **Download**.
+ - In your brower's file download dialog, select **Save File**. Save the file to your local hard drive.
  - Since the file was downloaded from the Internet, it will not yet be
  enabled for editing.
- - Open the .xlsm file.
+ - Open the .xlsm file from your hard drive.
  - In the message area titled **Protected View**, click **Enable Editing**.
  - In the message area titled **Security Warning**, click **Enable Content**.
 
