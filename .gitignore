@@ -1,0 +1,5 @@
+## Ignore temporary files and folders.
+
+# Build folders
+[Ww]iki[Dd]ocs/
+

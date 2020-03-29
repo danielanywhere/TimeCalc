@@ -1,7 +1,11 @@
 # TimeCalc Overview
 TimeCalc is an Excel spreadsheet file that makes extensive use of formulas, VBA macros, and formatting to ease the task of keeping extremely detailed track of time spent on tasks and projects.
 
+![Getting Started](Images/TimeCalcGettingStarted.gif)
+
 At the end of every billing period, TimeCalc gives you the abilities to send invoices on time spent, and receive payment on outstanding billed items.
+
+Following is an overview of the contents of the workbook. Please see the Wiki section for more instructions.
 
 # Sheets
 The workbook starts with 21 sheets, enumerated below, each used for specialized purposes.
