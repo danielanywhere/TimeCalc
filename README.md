@@ -7,7 +7,7 @@ At the end of every billing period, TimeCalc gives you the abilities to send inv
 
 # Quick Start
 Download TimeCalc2020.xlsm from the above list.
- - Click link [TimeCalc-2020.xlsm](blob/master/TimeCalc-2020.xlsm).
+ - Click link [TimeCalc-2020.xlsm](TimeCalc-2020.xlsm).
  - Click **Download**.
  - Since the file was downloaded from the Internet, it will not yet be
  enabled for editing.
